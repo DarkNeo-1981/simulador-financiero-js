@@ -96,11 +96,11 @@ InvestSim-Pro/
 ├── style.css
 ├── README.md
 │
-├── Data/
+├── data/
 │   ├── activos.json
 │   └── usuarios.json
 │
-└── Js/
+└── js/
     ├── main.js
     ├── auth.js
     ├── storage.js
