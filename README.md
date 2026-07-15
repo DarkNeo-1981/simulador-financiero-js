@@ -99,27 +99,30 @@ Utilizada para la creación de gráficos dinámicos.
 
 # 📂 Estructura del proyecto
 
-nvestSim-Pro
+## 📂 Estructura del proyecto
+
+```text
+InvestSim-Pro/
 │
 ├── index.html
 ├── styles.css
 ├── README.md
 │
-├── data
-│ ├── activos.json
-│ └── usuarios.json
+├── data/
+│   ├── activos.json
+│   └── usuarios.json
 │
-└── Js
-│
-├── main.js
-├── auth.js
-├── storage.js
-├── usuariosStorage.js
-├── mercado.js
-├── cartera.js
-├── graficos.js
-├── ui.js
-├── uiCartera.js
+└── js/
+    ├── main.js
+    ├── auth.js
+    ├── storage.js
+    ├── usuariosStorage.js
+    ├── mercado.js
+    ├── cartera.js
+    ├── graficos.js
+    ├── ui.js
+    └── uiCartera.js
+```
 
 
 
