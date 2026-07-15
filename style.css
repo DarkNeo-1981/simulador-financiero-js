@@ -1,0 +1,245 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+    min-height: 100vh;
+}
+
+/* ==========================
+   HEADER
+========================== */
+
+header {
+    background: #111827;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 1px solid #334155;
+}
+
+header h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+/* ==========================
+   GENERAL
+========================== */
+
+section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+h2 {margin-bottom: 20px;}
+
+.hidden {display: none;}
+
+/* ==========================
+   LOGIN
+========================== */
+
+#login {text-align: center;}
+
+#login input {display: inline-block;}
+
+input {
+    width: 250px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #1e293b;
+    color: white;
+}
+
+input::placeholder {color: #94a3b8;}
+
+/* ==========================
+   BOTONES
+========================== */
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+button:hover {background: #1d4ed8;}
+
+#btnLogout {
+    background: #dc2626;
+    white-space: nowrap;
+}
+
+#btnLogout:hover {background: #b91c1c;}
+
+/* ==========================
+   DASHBOARD HEADER
+========================== */
+
+.dashboard-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.dashboard-header .cards {flex: 1;}
+
+/* ==========================
+   DASHBOARD CARDS
+========================== */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.card h3 {
+    color: #94a3b8;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* ==========================
+   MERCADO
+========================== */
+
+#listaActivos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.activo {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.activo:hover {transform: translateY(-5px);}
+
+.activo h3 {margin-bottom: 10px;}
+
+.activo span {
+    color: #38bdf8;
+    font-size: 1.3rem;
+}
+
+/* ==========================
+   CARTERA
+========================== */
+
+#miCartera {overflow-x: auto;}
+
+.tabla-cartera {
+    width: 100%;
+    border-collapse: collapse;
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tabla-cartera th {
+    background: #334155;
+    padding: 15px;
+    text-align: left;
+}
+
+.tabla-cartera td {
+    padding: 15px;
+    border-bottom: 1px solid #334155;
+}
+
+.tabla-cartera tr:hover {background: #273449;}
+
+.btnVender {
+    background: #dc2626;
+    padding: 8px 14px;
+    font-size: 0.9rem;
+}
+
+.btnVender:hover {background: #b91c1c;}
+
+.ganancia {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.perdida {
+    color: #ef4444;
+    font-weight: bold;
+}
+
+.card-vacia {
+    background: #1e293b;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+/* ==========================
+   GRAFICOS
+========================== */
+
+.graficos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.graficos div {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+canvas {max-height: 350px;}
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+@media (max-width:700px) {
+    input {
+        width: 100%;
+        margin: 5px 0;
+    }
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .dashboard-header {flex-direction: column;}
+    .cards {grid-template-columns: 1fr;}
+    #btnLogout {width: 100%;}
+}

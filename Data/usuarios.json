@@ -1,0 +1,39 @@
+
+[
+    {
+        "id": 1,
+        "nombre": "Nicolas",
+        "email": "nfasane@gmail.com",
+        "password": "Nico1981!",
+        "capitalInicial": 1000000,
+        "saldo": 1000000,
+        "cartera": []
+    },
+    {
+        "id": 2,
+        "nombre": "Juan",
+        "email": "juan@email.com",
+        "password": "1234",
+        "capitalInicial": 500000,
+        "saldo": 500000,
+        "cartera": []
+    },
+    {
+        "id": 3,
+        "nombre": "Carolina",
+        "email": "caro@gmail.com",
+        "password": "1234",
+        "capitalInicial": 1500000,
+        "saldo": 1500000,
+        "cartera": []
+    },
+    {
+        "id": 3,
+        "nombre": "Carlos",
+        "email": "fege@gmail.com",
+        "password": "1234",
+        "capitalInicial": 1000000,
+        "saldo": 1000000,
+        "cartera": []
+    }
+]

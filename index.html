@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvestSim Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>InvestSim Pro</h1>
+        <p>Simulador de inversiones personales</p>
+    </header>
+
+    <section id="login">
+        <h2>Ingresar a InvestSim Pro</h2>
+        <input id="emailUsuario" type="email" placeholder="Email">
+        <input id="passwordUsuario" type="password" placeholder="Contraseña">
+        <button id="btnLogin">Ingresar</button>
+    </section>
+
+    <section id="dashboard" class="hidden">
+
+        <div class="dashboard-header">
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>Patrimonio</h3>
+                    <p id="patrimonio">$0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Disponible</h3>
+                    <p id="saldo">$0</p>
+                </div>
+
+                <div class="card">
+                    <h3>Resultado</h3>
+                    <p id="resultado">$0</p>
+                </div>
+
+            </div>
+
+            <button id="btnLogout">Cerrar sesión</button>
+
+        </div>
+
+        <section class="mercado">
+            <h2>Mercado</h2>
+
+            <div id="listaActivos"></div>
+
+            <button id="btnActualizarMercado">
+                Actualizar mercado
+            </button>
+
+        </section>
+
+        <section>
+
+            <h2>Mi cartera</h2>
+
+            <div id="miCartera"></div>
+
+        </section>
+
+        <section class="graficos">
+
+            <div>
+                <h3>Distribución</h3>
+                <canvas id="graficoCartera"></canvas>
+            </div>
+
+            <div>
+                <h3>Evolución</h3>
+                <canvas id="graficoEvolucion"></canvas>
+            </div>
+
+        </section>
+
+    </section>
+
+    <script type="module" src="./Js/main.js"></script>
+
+</body>
+
+</html>

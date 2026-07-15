@@ -1,0 +1,51 @@
+
+[
+    {
+        "id":1,
+        "nombre":"Microsoft",
+        "ticker":"MSFT",
+        "tipo":"CEDEAR",
+        "precio":416.50,
+        "moneda":"USD"
+    },
+    {
+        "id":2,
+        "nombre":"Apple",
+        "ticker":"AAPL",
+        "tipo":"CEDEAR",
+        "precio":210.30,
+        "moneda":"USD"
+    },
+    {
+        "id":3,
+        "nombre":"Coca Cola",
+        "ticker":"KO",
+        "tipo":"CEDEAR",
+        "precio":62.40,
+        "moneda":"USD"
+    },
+    {
+        "id":4,
+        "nombre":"Mercado Libre",
+        "ticker":"MELI",
+        "tipo":"CEDEAR",
+        "precio":1650,
+        "moneda":"USD"
+    },
+    {
+        "id":5,
+        "nombre":"Bonar 2030",
+        "ticker":"AL30",
+        "tipo":"BONO",
+        "precio":85.20,
+        "moneda":"USD"
+    },
+    {
+        "id":6,
+        "nombre":"Fondo Money Market",
+        "ticker":"FMM",
+        "tipo":"FONDO",
+        "precio":100,
+        "moneda":"ARS"
+    }
+]
