@@ -8,7 +8,6 @@ El usuario puede iniciar sesión, consultar activos disponibles, realizar compra
 
 El proyecto fue desarrollado aplicando conceptos de JavaScript moderno, manipulación del DOM, módulos ES6, consumo de datos mediante Fetch API, persistencia con LocalStorage y utilización de librerías externas.
 
-
 ---
 
 # 🚀 Funcionalidades principales
@@ -20,14 +19,12 @@ El proyecto fue desarrollado aplicando conceptos de JavaScript moderno, manipula
 - Persistencia de sesión utilizando LocalStorage.
 - Recuperación de información del usuario al volver a ingresar.
 
-
 ## 📊 Mercado
 
 - Carga dinámica de activos desde archivos JSON.
 - Visualización de activos disponibles.
-- Consulta de precios actuales.
+- Visualización de cotizaciones simuladas.
 - Actualización de cotizaciones del mercado.
-
 
 ## 💰 Operaciones de inversión
 
@@ -37,7 +34,6 @@ El proyecto fue desarrollado aplicando conceptos de JavaScript moderno, manipula
 - Validación de cantidad disponible para evitar ventas superiores a la posición actual.
 - Registro de operaciones realizadas.
 
-
 ## 📁 Gestión de cartera
 
 - Visualización de inversiones actuales.
@@ -45,7 +41,6 @@ El proyecto fue desarrollado aplicando conceptos de JavaScript moderno, manipula
 - Cálculo del precio promedio de adquisición.
 - Cálculo de ganancias y pérdidas.
 - Actualización del patrimonio total del usuario.
-
 
 ## 📈 Dashboard
 
@@ -57,14 +52,12 @@ El panel principal permite visualizar:
 - Distribución de inversiones.
 - Evolución del patrimonio.
 
-
 ## 📉 Gráficos
 
 La aplicación utiliza Chart.js para representar:
 
 - Distribución de cartera mediante gráfico Doughnut.
 - Evolución del patrimonio mediante gráfico Line.
-
 
 ---
 
@@ -76,7 +69,6 @@ La aplicación utiliza Chart.js para representar:
 - CSS3
 - JavaScript ES6+
 
-
 ## Librerías externas
 
 ### SweetAlert2
@@ -87,13 +79,11 @@ Utilizada para generar alertas y ventanas interactivas para las operaciones real
 
 Utilizada para la creación de gráficos dinámicos.
 
-
 ## Herramientas y APIs
 
 - Fetch API para obtener información desde archivos JSON.
 - LocalStorage para persistencia de datos.
 - JavaScript Modules para organización del código.
-
 
 ---
 
@@ -103,14 +93,14 @@ Utilizada para la creación de gráficos dinámicos.
 InvestSim-Pro/
 │
 ├── index.html
-├── styles.css
+├── style.css
 ├── README.md
 │
-├── data/
+├── Data/
 │   ├── activos.json
 │   └── usuarios.json
 │
-└── js/
+└── Js/
     ├── main.js
     ├── auth.js
     ├── storage.js
@@ -122,20 +112,33 @@ InvestSim-Pro/
     └── uiCartera.js
 ```
 
-
-
 ---
 
 # ▶️ Instalación y ejecución
 
 1. Descargar o clonar el proyecto.
 2. Abrir la carpeta del proyecto utilizando Visual Studio Code.
-3. Ejecutar el proyecto mediante un servidor local.
-Se recomienda utilizar la extensión: Live Server
-4. Abrir el archivo: index.html
+3. Ejecutar el proyecto mediante un servidor local.  
+   Se recomienda utilizar la extensión Live Server.
+4. Abrir la dirección generada por el servidor local en el navegador.
 
+---
 
-desde el servidor local.
+# 🔑 Credenciales de prueba
+
+Para probar la aplicación se puede utilizar el siguiente usuario registrado:
+
+**Email**
+
+```
+admin@gmail.com
+```
+
+**Contraseña**
+
+```
+admin1234
+```
 
 ---
 
@@ -165,7 +168,6 @@ La aplicación separa responsabilidades en diferentes componentes:
 - Lógica de inversiones.
 - Renderizado de interfaz.
 - Generación de gráficos.
-
 
 Esta estructura permite un código más ordenado, mantenible y escalable.
 

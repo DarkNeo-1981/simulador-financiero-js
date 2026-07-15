@@ -2,9 +2,9 @@
 [
     {
         "id": 1,
-        "nombre": "Nicolas",
-        "email": "nfasane@gmail.com",
-        "password": "Nico1981!",
+        "nombre": "Administrador",
+        "email": "admin@gmail.com",
+        "password": "admin1234",
         "capitalInicial": 1000000,
         "saldo": 1000000,
         "cartera": []
