@@ -99,8 +99,6 @@ Utilizada para la creación de gráficos dinámicos.
 
 # 📂 Estructura del proyecto
 
-## 📂 Estructura del proyecto
-
 ```text
 InvestSim-Pro/
 │
